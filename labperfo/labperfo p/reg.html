@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+        <h2>Registration Form</h>
+
+        <form method = "post" action="regcheck.php">
+            <fieldset >
+                <legend><h4>Signup</h4></legend>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" name="username" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Email: </td>
+                        <td><input type="email" name="email" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Student ID:</td>
+                        <td><input type="number"  name="id" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Dept:</td>
+                        <td>
+                            <input type="radio" name="dept"  value=""> CSE  
+                            <input type="radio" name="dept"  value=""> EEE  
+                            <input type="radio" name="dept"  value=""> BBA
+                            <input type="radio" name="dept"  value=""> BArch
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>DOB:</td>
+                        <td><input type="date" name="dob" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <input type="radio" name="gender"  value=""> Male  
+                            <input type="radio" name="gender"  value=""> female  
+                            <input type="radio" name="gender"  value=""> Other
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Address: </td>
+                        <td><textarea name = "address"></textarea> </td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="password" name="password" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            
+                            <input type="submit" name="submit" value="Signup"  />
+                            <input type="reset" name="reset" value="Reset"  />
+                        </td>
+                    </tr>
+                </table>
+        </fieldset>     
+        </form> 
+</body>
+</html>
